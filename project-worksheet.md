@@ -54,26 +54,27 @@ Once complete tally up the time and determine how long the project will take to 
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP (examples)
-
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
 
 #### PostMVP 
 
 - Anything else that is not MVP
 
-## Functional Components
+## Functional Components and MVP
 
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
-
-|Component |	Priority|	Estim Hrs	
-|Research site inspo| H  | 1 |  	
-| |TOTAL | | Estimated 30 hrs for MVP | 40 hrs invested | 40 hrs spent |
+Component 	     Priority	            Estim Hrs	
+Research site inspo                              1
+Wireframe                                       0.5
+write site copy content                         3
+research & plan grid/flex                        1
+implement grid/flex structure                    5
+implement responsive design                      5
+hamburger menu                                   4
+plan/research css styling                        1.5
+implement styling                                4
+compile projects/proj. thumbnails                3
+jquery contact form                              5
+finalize github                                  3         
+| |TOTAL | | Estimated 36 hrs for MVP
 
 
 ## Additional Libraries
