@@ -44,7 +44,7 @@ see folder in repo labelled 'wireframes'.
 
 #### PostMVP 
 
-- additional projects added to 'portfolio section
+- additional projects added to 'portfolio' section
 - possible styling updates
 
 ## Additional Libraries
