@@ -61,20 +61,21 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Functional Components and MVP
 
-Component 	     Priority	            Estim Hrs	
-Research site inspo                              1
-Wireframe                                       0.5
-write site copy content                         3
-research & plan grid/flex                        1
-implement grid/flex structure                    5
-implement responsive design                      5
-hamburger menu                                   4
-plan/research css styling                        1.5
-implement styling                                4
-compile projects/proj. thumbnails                3
-jquery contact form                              5
-finalize github                                  3         
-| |TOTAL | | Estimated 36 hrs for MVP
+|Component 	|       Estim Hrs	
+| ---| --- | 
+|Research site inspo  |                            1
+|Wireframe            |                           0.5
+|write site copy content  |                       3
+|research & plan grid/flex    |                    1
+|implement grid/flex structure |                   5
+|implement responsive design   |                   5
+|hamburger menu     |                              4
+|plan/research css styling   |                     1.5
+|implement styling       |                         4
+|compile projects/proj. thumbnails  |              3
+|jquery contact form        |                      5
+|finalize github      |                            3         
+| TOTAL |  Estimated 36 hrs for MVP
 
 
 ## Additional Libraries
