@@ -32,18 +32,18 @@ Resume website that provides information about myself, my skills and experience,
 
 |Component 	|       Estimated Time	|  Time Invested   |  Actual Time
 | ---| --- | --- | --- |
-|Research site inspo  |                            1    |              |
-|Wireframe            |                           0.5  |              |
-|HTML/written content  |                       3 |              |
-|research & plan grid/flex    |                    1 |              |
-|implement grid/flex structure |                   5 |              |
-|implement responsive design   |                   5 |              |
-|hamburger menu     |                              4 |              |
-|plan/research css styling   |                     1.5 |              |
-|implement styling       |                         4 |              |
-|compile projects/proj. thumbnails  |              3 |              |
-|jquery contact form        |                      5 |              |
-|finalize github      |                            3   |              |       
+|Research site inspo  |                            1 hr   |     1 hr         |   1 hr
+|Wireframe            |                           0.5 hr  |      0.5 hr        |   0.5 hr
+|HTML/written content  |                       3 hr |        - hr      |   - hr
+|research & plan grid/flex    |                    1 hr |       - hr       |   - hr
+|implement grid/flex structure |                   5 hr |       - hr       |   - hr
+|implement responsive design   |                   5 hr|        - hr      |   - hr
+|hamburger menu     |                              4 hr|        - hr      |   - hr
+|plan/research css styling   |                     1.5 hr|       - hr       |   - hr
+|implement styling       |                         4 hr|        - hr      |   - hr
+|compile projects/proj. thumbnails  |              3 hr|       - hr       |   - hr
+|jquery contact form        |                      5 hr|       - hr       |   - hr
+|finalize github      |                            3   hr|       - hr       |    - hr      
 | TOTAL |  Estimated 36 hrs for MVP
 
 #### PostMVP 
@@ -52,7 +52,8 @@ Resume website that provides information about myself, my skills and experience,
 - possible styling updates
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+[JQuery](https://code.jquery.com/jquery-3.5.1.min.js)
+[Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css)
 
 ## Code Snippet
 
