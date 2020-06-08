@@ -17,7 +17,7 @@
 Resume website that provides information about myself, my skills and experience, a collection of portfolio projects, and ways to contact me.
 
 ## Google Sheet
-
+[Projects sheet](https://docs.google.com/spreadsheets/d/12v_YzgGL2VG3RbD5zB9MNSG7C_N9-zk2MuZrZR8zqUQ/edit?usp=sharing)
 
 ## Wireframes
 
