@@ -23,23 +23,27 @@ Resume website that provides information about myself, my skills and experience,
 
 see folder in repo labelled 'wireframes'.
 
+## Time/Priority Matrix
+
+[Link](https://imgur.com/7wPdeLm)
+
 
 ## Functional Components and MVP
 
-|Component 	|       Estim Hrs	
-| ---| --- | 
-|Research site inspo  |                            1
-|Wireframe            |                           0.5
-|HTML/written content  |                       3
-|research & plan grid/flex    |                    1
-|implement grid/flex structure |                   5
-|implement responsive design   |                   5
-|hamburger menu     |                              4
-|plan/research css styling   |                     1.5
-|implement styling       |                         4
-|compile projects/proj. thumbnails  |              3
-|jquery contact form        |                      5
-|finalize github      |                            3         
+|Component 	|       Estimated Time	|  Time Invested   |  Actual Time
+| ---| --- | --- | --- |
+|Research site inspo  |                            1    |              |
+|Wireframe            |                           0.5  |              |
+|HTML/written content  |                       3 |              |
+|research & plan grid/flex    |                    1 |              |
+|implement grid/flex structure |                   5 |              |
+|implement responsive design   |                   5 |              |
+|hamburger menu     |                              4 |              |
+|plan/research css styling   |                     1.5 |              |
+|implement styling       |                         4 |              |
+|compile projects/proj. thumbnails  |              3 |              |
+|jquery contact form        |                      5 |              |
+|finalize github      |                            3   |              |       
 | TOTAL |  Estimated 36 hrs for MVP
 
 #### PostMVP 
