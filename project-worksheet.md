@@ -21,7 +21,7 @@ Resume website that provides information about myself, my skills and experience,
 
 ## Wireframes
 
-see folder in repo labelled 'wireframes'.
+[Link](https://imgur.com/a/JrGacY4)
 
 ## Time/Priority Matrix
 
