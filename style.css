@@ -1,0 +1,150 @@
+
+div {
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    padding: 5px;
+}
+
+nav {
+    color: #f6f6f6;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
+ /**********************************************/
+
+.left {
+    display: none;
+}
+
+
+#header{
+    background-color: rgb(246, 246, 246);
+    background-image: url(https://i.imgur.com/TvASboj.jpg?1);
+    background-size: 12em;
+    background-repeat: no-repeat;
+    background-position: 50%, 0px;
+    height: 650px;
+}
+
+.open .left{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    background-color: blue;
+    padding: 30px;
+    color: #f6f6f6;
+    font-size: 35px;
+  }
+
+  .close {
+   text-align: right;
+   color: white;
+   position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+  }
+
+
+#title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 180px;
+    z-index: 999;
+}
+
+#subhead {
+    font-family: serif;
+    font-style: italic;
+    color: #0608FF;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#hamburger {
+    color: #0608FF;
+}
+
+/*********************************************/
+
+#about {
+    background-color: #0608FF;
+    color: #f6f6f6;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 15px;
+}
+
+#headshot {
+    width: 200px;
+    margin: auto;
+
+}
+
+#locationart {
+    width: 200px;
+    margin: auto;
+}
+
+/********************************************/
+
+#portfolio {
+    background-color: #f6f6f6;
+    display: grid;
+    padding: 15px;
+}
+
+.portfolio-img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+.project-item {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    padding-bottom: 15px;;
+}
+
+h3  {
+    font-family: serif;
+    font-style: italic;
+    color: #0608FF;
+}
+
+
+/*********************************************/
+
+#contact {
+    background-color: #0608FF;
+    color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+
+.socials {
+    color: #f6f6f6;
+}
