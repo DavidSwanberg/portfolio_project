@@ -19,27 +19,16 @@ $.ajax({
             description: project.gsx$description.$t,
             url: project.gsx$url.$t
         }
-    }) //map ends
-    /// app()??????
+    }) 
+
     app(projects)
 })
 .catch( err => console.log('err', err))
-//.catch is meant to handle errors
 
 console.log('running after ajax')
 
-//grab an element and put it on a page
-// function app(projectsArr){
-//     console.log('app - projectsArr', projectsArr)
-//     projectsArr.forEach( project => {
-//         let title = $('<h3>')
-//         let image = $('<img>')
-//         title.text(project.title)
-//         image.attr('src',project.image)
-//         $('#portfolio').append(title).append(image)
-//     })
-// }
 
+//function that takes converted google data, formats it, and populates it into the porfolio div
 function app(projectsArr){
     console.log('app - projectsArr', projectsArr)
     projectsArr.forEach( project => {
@@ -47,14 +36,18 @@ function app(projectsArr){
         let title = $('<h3>')
         let image = $('<img>')
         let link = $('<a>')
+        let description = $('<p>')
         title.text(project.title)
         image.attr('src',project.image).addClass('portfolio-img')
         link.text(project.title).attr('href',project.url)
+        description.text(project.description)
         $('#portfolio').append(projectdiv).addClass('project-item')
-        projectdiv.append(image).append(link)
+        projectdiv.append(image).append(link).append(description).css('color','#3990E0').css('font-style','italic').css('font-family','serif')
     })
 }
 
+//below is the code for the hamburger menu, there are some reduncies and I know there 
+//is a way more effecient way to write this, but everytime I tried the code would break.
 $(() => {
 
     const $navButtons = $('nav button');
