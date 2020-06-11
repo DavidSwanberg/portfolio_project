@@ -32,17 +32,16 @@ Resume website that provides information about myself, my skills and experience,
 
 |Component 	|       Estimated Time	|  Time Invested   |  Actual Time
 | ---| --- | --- | --- |
-|Research site inspo  |                            1 hr   |     1 hr         |   1 hr
-|Wireframe            |                           0.5 hr  |      0.5 hr        |   0.5 hr
-|HTML/written content  |                       3 hr |        - hr      |   - hr
-|research & plan grid/flex    |                    1 hr |       - hr       |   - hr
-|implement grid/flex structure |                   5 hr |       - hr       |   - hr
-|implement responsive design   |                   5 hr|        - hr      |   - hr
-|hamburger menu     |                              4 hr|        - hr      |   - hr
-|plan/research css styling   |                     1.5 hr|       - hr       |   - hr
-|implement styling       |                         4 hr|        - hr      |   - hr
-|compile projects/proj. thumbnails  |              3 hr|       - hr       |   - hr
-|jquery contact form        |                      5 hr|       - hr       |   - hr
+|Research site inspo  |                            1 hr   |     1 hr         |   1 hr complete
+|Wireframe            |                           0.5 hr  |      0.5 hr        |   0.5 hr complete
+|HTML/written content  |                       4 hr |        - hr      |   - hr
+|mobile structure    |                    5 hr |       5 hr       |   5 hr complete
+|implement responsive design   |                   7 hr|        4 hr      |   1 hr
+|hamburger menu     |                              4 hr|        1 hr      |   1 hr complete
+|plan/research css styling   |                     1.5 hr|       3 hr       |   1 hr
+|implement styling       |                         4 hr|        3 hr      |   4 hr (redoing style)
+|compile projects/proj. thumbnails  |              3 hr|       3 hr       |   3 hr complete
+|other design elements        |                      3 hr|       2 hr       |   1 hr
 |finalize github      |                            3   hr|       - hr       |    - hr      
 | TOTAL |  Estimated 36 hrs for MVP
 

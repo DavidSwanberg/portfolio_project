@@ -1,14 +1,25 @@
+body{
+    height: 100%;
+    background-color:#f6f6f6;
+}
 
 div {
     width: 100%;
     font-family: Helvetica, sans-serif;
     padding: 5px;
+    margin:auto;
 }
 
-nav {
+nav a{
     color: #f6f6f6;
     display: flex;
     justify-content: flex-end;
+    margin: 20px;
+    font-size: 2.5em;
+}
+
+.desktop-nav {
+    display: none;
 }
 
 button {
@@ -25,6 +36,14 @@ ul {
     list-style-type: none;
   }
 
+#hamburger {
+    margin-left: 10px;
+    font-size: 2em;
+} 
+
+h1 {
+    color: rgb(6, 8, 255);
+}
 
  /**********************************************/
 
@@ -34,12 +53,9 @@ ul {
 
 
 #header{
-    background-color: rgb(246, 246, 246);
-    background-image: url(https://i.imgur.com/TvASboj.jpg?1);
-    background-size: 12em;
+    background-image: url(https://i.imgur.com/vDQPw2j.jpg);
     background-repeat: no-repeat;
-    background-position: 50%, 0px;
-    height: 650px;
+    background-size: cover;
 }
 
 .open .left{
@@ -56,12 +72,11 @@ ul {
   }
 
   .close {
-   text-align: right;
    color: white;
    position: absolute;
     top: 30px;
     right: 30px;
-    font-size: 20px;
+    font-size: 35px;
   }
 
 
@@ -81,29 +96,32 @@ ul {
 }
 
 #hamburger {
-    color: #0608FF;
+    color: rgb(6, 8, 255);
 }
 
 /*********************************************/
 
 #about {
-    background-color: #0608FF;
-    color: #f6f6f6;
+    background-color: rgb(246, 246, 246);
+    color: #0608FF;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    padding: 15px;
+    width: 90%;
+    margin: auto;
 }
 
 #headshot {
     width: 200px;
     margin: auto;
+    border-radius: 10%;
+    border: 15px;
 
 }
 
-#locationart {
-    width: 200px;
-    margin: auto;
+#location {
+    margin-top: 20px;
+    width: 90%;
 }
 
 /********************************************/
@@ -112,10 +130,18 @@ ul {
     background-color: #f6f6f6;
     display: grid;
     padding: 15px;
+    border: 2px solid #0608FF;
+}
+
+.portfoliotitle{
+    display: block;
+    width: 90%;
+    margin: auto;
 }
 
 .portfolio-img {
-    width: 200px;
+    width: 300px;
+    height: 250px;
     margin: auto;
     display: block;
 }
@@ -134,11 +160,12 @@ h3  {
 }
 
 
+
 /*********************************************/
 
 #contact {
-    background-color: #0608FF;
-    color: #f6f6f6;
+    background-color: #f6f6f6;
+    color: #0608FF;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -146,5 +173,96 @@ h3  {
 }
 
 .socials {
-    color: #f6f6f6;
+    color: #0608FF;
+}
+
+
+
+@media only screen and (min-width: 700px) {
+
+#about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 20px;
+}
+
+#bio {
+    padding-top: 1em;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#headshot {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#locaton {
+    margin-top: 0px;
+    grid-column:1/2;
+    grid-row: 2/3;
+}
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+ #hamburger {
+    display: none;
+ }
+
+.desktop-nav {
+    display: flex;
+}
+
+.desktop-nav a {
+    color: #0608FF;
+}
+
+.desktop-nav li {
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+/*********************************************/
+
+#about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+#bio {
+    grid-column:1/2;
+    grid-row:1/2;
+}
+
+#headshot {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+#location {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+
+
+/*********************************************/
+
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 4em;
+    padding-bottom: 4em;
 }

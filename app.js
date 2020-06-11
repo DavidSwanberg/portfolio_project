@@ -63,14 +63,14 @@ $(() => {
         $nav.toggleClass('open');
     })
 })
-$(() => {
+ $(() => {
 
-    const $navButtons = $('nav a');
-    const $nav = $('nav');
-    $navButtons.on('click', () => {
-        $nav.toggleClass('open');
-    })
-})
+     const $navButtons = $('nav a');
+     const $nav = $('nav');
+     $navButtons.on('click', () => {
+         $nav.toggleClass('open');
+     })
+ })
 
 $(window).on('resize', () => {
     if (window.innerWidth > 768) {
