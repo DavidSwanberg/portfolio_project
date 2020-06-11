@@ -34,15 +34,15 @@ Resume website that provides information about myself, my skills and experience,
 | ---| --- | --- | --- |
 |Research site inspo  |                            1 hr   |     1 hr         |   1 hr complete
 |Wireframe            |                           0.5 hr  |      0.5 hr        |   0.5 hr complete
-|HTML/written content  |                       4 hr |        - hr      |   - hr
+|HTML/written content  |                       4 hr |        2 hr      |   2 hr complete
 |mobile structure    |                    5 hr |       5 hr       |   5 hr complete
-|implement responsive design   |                   7 hr|        4 hr      |   1 hr
+|implement responsive design   |                   7 hr|        5 hr      |   5 hr complete
 |hamburger menu     |                              4 hr|        1 hr      |   1 hr complete
-|plan/research css styling   |                     1.5 hr|       3 hr       |   1 hr
-|implement styling       |                         4 hr|        3 hr      |   4 hr (redoing style)
+|plan/research css styling   |                     1.5 hr|       4 hr       |   4 hr complete
+|implement styling       |                         4 hr|        6 hr      |   6 hr  complete
 |compile projects/proj. thumbnails  |              3 hr|       3 hr       |   3 hr complete
-|other design elements        |                      3 hr|       2 hr       |   1 hr
-|finalize github      |                            3   hr|       - hr       |    - hr      
+|other design elements        |                      3 hr|       2 hr       |   1 hr complete
+|finalize github      |                            3   hr|       2 hr       |    2 hr      
 | TOTAL |  Estimated 36 hrs for MVP
 
 #### PostMVP 
@@ -56,11 +56,24 @@ Resume website that provides information about myself, my skills and experience,
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+A very functional (albeit somewhat bloated) function to pull portfolio data from a google sheet
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function app(projectsArr){
+    console.log('app - projectsArr', projectsArr)
+    projectsArr.forEach( project => {
+        let projectdiv = $('<div>')
+        let title = $('<h3>')
+        let image = $('<img>')
+        let link = $('<a>')
+        let description = $('<p>')
+        title.text(project.title)
+        image.attr('src',project.image).addClass('portfolio-img')
+        link.text(project.title).attr('href',project.url)
+        description.text(project.description)
+        $('#portfolio').append(projectdiv).addClass('project-item')
+        projectdiv.append(image).append(link).append(description).css('color','#3990E0').css('font-style','italic').css('font-family','serif')
+    })
 }
 ```
 
